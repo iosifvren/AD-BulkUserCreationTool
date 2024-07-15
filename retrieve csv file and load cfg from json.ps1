@@ -1,0 +1,3 @@
+$config = Get-Content -Path "C:\path\to\config.json" | ConvertFrom-Json
+
+$csvPath = $config.csvPath
